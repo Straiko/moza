@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Музыкальный плеер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-player">
+    <div class="cover-art">
+      <img src="kartinki/moz.png" alt="Обложка альбома Моцарта">
+    </div>
+    <div class="controls">
+      <audio id="audio" src="muzika/mozart.mp3"></audio>
+      <input type="range" class="progress-bar" min="0" max="100" value="0" style="width: 100%; height: 10px;">
+      <div class="track-info">
+        <h3 id="track-title">Моцарт - Акт 1</h3>
+      </div>
+      <div style="display: flex; align-items: center;">
+        <button class="play-pause">
+          <img src="kartinki/plat.jpg" alt="Иконка воспроизведения/паузы">
+          Воспроизвести/Пауза
+        </button>
+        <input type="range" class="volume-slider" min="0" max="100" value="50" style="margin-left: 10px;">
+      </div>
+      <div class="timestamps">
+        <span id="start-time">00:00</span>
+        <span id="end-time">00:00</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "playerSettings": {
+      "defaultVolume": 50,
+      "repeat": false,
+      "shuffle": false,
+      "playbackSpeed": 1.0
+    },
+    "tracks": [
+      {
+        "audioSrc": "mozart.mp3",
+        "title": "Моцарт - Акт 1",
+        "coverArt": "moz.png",
+        "duration": 300
+      }
+    ]
+  }
+  
